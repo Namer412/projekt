@@ -49,3 +49,36 @@ p {
     color: whitesmoke;
     font-weight: bold;
 }
+
+footer {
+    background-color: black;
+}
+
+footer p {
+    margin: 0;
+    padding: 100px;
+}
+
+@media(max-width:500px) {
+    header {
+        display: block;
+        text-align: center;
+        padding: 50px;
+    }
+    nav {
+        margin: 15px 0;
+    }
+    h1 {
+        font-size: 75px
+    }
+    p {
+        font-size: 30px;
+    }
+    div {
+        padding: 15px 10px;
+    }
+}
+
+button a {
+    text-decoration: none;
+}
