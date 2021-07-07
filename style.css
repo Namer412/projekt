@@ -1,0 +1,51 @@
+header {
+    background-color: rgb(255, 231, 16);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+body {
+    margin: 0;
+    font-family: 'Play', sans-serif;
+}
+
+nav a {
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    margin: 25px;
+    text-decoration: none;
+}
+
+button {
+    padding: 10px 30px;
+    border-radius: 35px;
+    font-size: 28px;
+    border: none;
+    font-family: 'Play', sans-serif;
+    cursor: pointer;
+    transition: .5s;
+}
+
+button:hover {
+    background-color: rgba(116, 109, 109, 0.699);
+    transform: scale(1.05);
+}
+
+div {
+    text-align: center;
+    padding: 325Px 70px;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.301), rgba(0, 0, 0, 0.301)), url(dio.jpg);
+    background-size: cover;
+}
+
+h1 {
+    color: whitesmoke;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+p {
+    color: whitesmoke;
+    font-weight: bold;
+}
